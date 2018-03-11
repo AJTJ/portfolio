@@ -1,0 +1,29 @@
+.aboutSection {
+   padding-top: 150px;
+   position: relative;
+}
+
+.headshotDiv {
+   background: rgb(236, 236, 236);
+   height: 400px;
+}
+
+.headshotFigure {
+   width: 50%;
+   margin-right: 50%;
+   
+   img {
+      max-height: 600px;
+   }
+}
+
+.aboutText {
+   width: 50%;
+   margin-left: 50%;
+}
+
+.aboutText__paragraph {
+   p {
+      padding: 15px 0;
+   }
+}

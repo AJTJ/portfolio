@@ -1,0 +1,56 @@
+// TOP NAV
+
+.topNav {
+   background: black;
+}
+
+.topNav__Flex {
+   display: flex;
+   height: 80px;
+   align-items: center;
+   justify-content: space-between;
+
+   h3 {
+      color: white;
+   }
+}
+
+.topNav__wrapper {
+   display: flex;
+   color: white;
+
+   li {
+      padding: 0 15px;
+   }
+
+   a {
+      font-size: 13px;
+      font-weight: 700;
+      border-bottom: 1px solid transparent;
+
+      &:hover,
+      &:active {
+         color: white;
+         border-bottom: white solid 1px;
+      }
+   }
+}
+
+//HERO IMAGE ZONE
+
+.hero {
+   min-height: 100vh;
+   background: black;  
+}
+
+.hero__flex {
+   display: flex;
+   align-items: center;
+   height: 100vh;
+}
+
+.numberedText__hero {
+   h1, h2 {
+      color: $softFontColor;
+   }
+}

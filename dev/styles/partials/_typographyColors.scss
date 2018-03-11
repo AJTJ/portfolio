@@ -1,0 +1,56 @@
+$mainFont: 'Karla', sans-serif;
+
+//Colors
+
+$linkColor: rgb(112, 112, 112);
+$mainTextColor: rgb(102, 102, 102);
+$darkHeaderColor: rgb(51, 51, 51);
+$iconColor: #5a5a5d;
+$accentColor: rgb(204, 204, 204);
+$softFontColor: rgb(153, 153, 153);
+
+body {
+   font-family: $mainFont;
+}
+
+li {
+   list-style: none;
+   color: $linkColor;
+}
+
+a {
+   text-decoration: none;
+   color: $linkColor;
+   transition: all 0.2s;
+}
+
+h1, h2, h3, h4, h5, p {
+   margin: 0;
+   color: $darkHeaderColor;
+}
+
+h1 {
+   font-size: 72px;
+}
+
+h2 {
+   font-size: 36px;
+}
+
+p {
+   line-height: 24px;
+   color: $mainTextColor;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $softFontColor;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $softFontColor;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $softFontColor;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $softFontColor;
+}

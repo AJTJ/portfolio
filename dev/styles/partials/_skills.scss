@@ -1,0 +1,73 @@
+.skillsSection {
+   padding: 40px 0;
+}
+
+.allSkills__wrapper {
+   margin: 0 auto;
+}
+
+.skillsWrapper {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+
+   h3 {
+      padding: 0 15px;
+      min-width: 200px;
+      text-align: center;
+   }
+}
+
+.skillIcons {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   padding: 0 20px;
+   color: $iconColor;
+   // height: 60px;
+   line-height: 0;
+   font-size: 80px;
+   border-right: $accentColor 1px solid;
+   border-left: $accentColor 1px solid;
+
+   p {
+      font-size: 15px;
+      text-align: center;
+      padding: 5px 0;
+   }
+   i, img {
+      padding: 0 10px;
+   }
+   div {
+      margin: 15px 0;
+   }
+}
+
+.currentSkills__icons {
+   img {
+      height: 80px;
+   }
+}
+
+.otherSkills__icons {
+   height: 144px;
+   img {
+      height: 95px;
+   }
+
+   p {
+      position: relative;
+      top: -15px;
+   }
+}
+
+.dungeonWrapper {
+   p {
+      position: static;
+   }
+}
+
+.dungeonIcon {
+   position: relative;
+}
+

@@ -1,0 +1,61 @@
+.topTriangles {
+   position: relative;
+   top: -150px;
+   display: block;
+   z-index: 10;
+}
+
+.topTriangles__spacer {
+   position: absolute;
+   left: 60%;
+}
+
+.triangle {
+   height: 199px;
+   width: 278px;
+   display: inline-block;
+   position: absolute;
+}
+
+.triangle1::before,
+.triangle3::before {
+   content:"";
+   display:block;
+   width:100%;
+   height:100%;
+   background: linear-gradient(to bottom, black, red, blue, yellow, white) fixed;
+}
+
+.triangle2::before,
+.triangle4::before {
+   content:"";
+   display:block;
+   width:500px;
+   height:500px;
+   transform: rotate(90deg);
+   background: linear-gradient(to top, transparent, red, blue, yellow, white) fixed;
+}
+
+.triangleUp {
+   -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.triangleDown {
+   -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
+   clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+
+.triangle2 {
+   top: 203px;
+}
+
+.triangle3 {
+   top: 204px;
+   left: 144px;
+}
+
+.triangle4 {
+   top: 408px;
+   left: 145px;
+}

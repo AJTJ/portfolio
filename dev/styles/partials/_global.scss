@@ -1,0 +1,21 @@
+.wrapper {
+   max-width: 1175px;
+   margin: 0 auto;
+}
+
+.numberedText {
+   // max-width: 600px;
+   padding: 25px 0;
+   h1, h2 {
+      display: inline;
+      line-height: 50px;
+   }
+
+   h1 {
+      padding-right: 20px;
+   }
+}
+
+figure {
+   margin: 0;
+}

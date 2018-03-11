@@ -1,0 +1,83 @@
+.contactSection {
+   margin-top: 50px;
+   display: flex;
+}
+
+.contactSection__trianglesSide {
+   width: 50%;
+}
+
+.contactSection__inputSide {
+   width: 50%;
+}
+
+.numberedText__contact {
+   position: relative;
+   left: -50px;
+}
+
+.formWrapper {
+   label {
+      font-size: 15px;
+      font-weight: 700;
+      width: 75px;
+      text-align: right;
+      margin-right: 30px;
+   }
+
+   input {
+      height: 60px;
+
+   }
+
+   input,
+   textarea {
+      border: none;
+      border-bottom: $accentColor 1px solid;
+      width: 100%;
+      padding: 10px 5px;
+   }
+
+   textarea {
+      margin-top: 40px;
+      resize: none;
+   }
+
+   .submitWrapper {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      height: 50px;
+   }
+   .submitInput {
+      border: none;
+      // text-align: right;
+      width: 100px;
+      height: 35px;
+      border: 1px solid $softFontColor;
+      color: $softFontColor;
+      border-radius: 10px;
+
+      &:hover,
+      &:active, {
+         border: 1px solid $darkHeaderColor;
+         color: $darkHeaderColor;
+         border-radius: 10px;
+      }
+   }
+}  
+
+
+.inputWrapper,
+.textareaWrapper {
+   display: flex;
+   align-items: center;
+}
+
+.textareaWrapper {
+   align-items: flex-start;
+   label {
+      margin-top: 50px;
+   }
+}
+
