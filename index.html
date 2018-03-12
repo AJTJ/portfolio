@@ -16,14 +16,14 @@
          <div class="wrapper topNav__Flex">
             <h3>Aaron Janke</h3>
             <nav class="topNav__wrapper">
-               <li><a href="">About</a></li>
-               <li><a href="">Skills</a></li>
-               <li><a href="">Projects</a></li>
-               <li><a href="">Contact</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#contact">Contact</a></li>
             </nav>
             <nav class="topNav__wrapper">
-               <li><a href="">twitter</a></li>
-               <li><a href="">linkedIn</a></li>
+               <li><a href="https://twitter.com/aaronjanke" target="_blank">twitter</a></li>
+               <li><a href="https://www.linkedin.com/in/aaron-janke-7827a947/" target="_blank">linkedIn</a></li>
             </nav>
          </div>
       </div>
@@ -41,33 +41,37 @@
       <!-- <canvas id="canvas"></canvas> -->
       <div class="topTriangles wrapper">
          <div class="topTriangles__spacer">
+            <a href="#about"><div class="triangle trianglePre triangleDown"></div></a>
             <div class="triangle triangleUp triangle1"></div>
             <div class="triangle triangleDown triangle2"></div>
             <div class="triangle triangleUp triangle3"></div>
             <div class="triangle triangleDown triangle4"></div>
+            <div class="triangle triangleUp triangle5"></div>
+            <div class="triangle triangleDown triangle6"></div>
+            <div class="triangle triangleUp triangle7"></div>
          </div>
       </div>
       <section class="aboutSection">
-         <div class="headshotDiv">
+         <div class="headshotDiv" id="about">
             <figure class="headshotFigure">
-               <img class="headshot" src="./assets/greyMan.png" alt="">
+               <!-- <img class="headshot" src="./assets/headshotMin.JPG" alt=""> -->
             </figure>
          </div>
          <div class="wrapper">
             <div class="aboutText">
-               <div class="numberedText">
+               <div class="numberedText numberedText__about">
                   <h1>02</h1><h2>About Me</h2>
                </div>
                <div class="aboutText__paragraph">
-                  <h4><em>Where do I start?</em></h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ullam aspernatur nesciunt, dolorem itaque enim dolorum vero rerum doloremque unde minus velit excepturi soluta numquam, provident omnis distinctio tempore? Soluta sed veniam numquam doloribus incidunt, cupiditate nemo similique quia dignissimos totam corrupti illum, enim a quas ad dolores, dicta explicabo!</p>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, nostrum saepe porro ipsam tempore, dolorem numquam cupiditate quaerat expedita quis est ducimus reprehenderit consequatur possimus odit aspernatur. Provident, at ab?</p>
-                  <h4>Some final thoughts</h4>
+                  <h4><em>I like to create things.</em></h4>
+                  <p>And I like to solve puzzles. One of my favorite things is getting a new board game and learning how to implement the rules as quickly and strategically as possible. I like finding succint, elegant solutions for my coding challenges.</p>
+                  <p>I have a BFA in performing and writing and compare my interest in narrative and story structure to my interest in the architecture of good, clean code. Web development, game design and artificial intelligence fascinates me.</p>
+                  <h4></h4>
                </div>
             </div>
          </div>
       </section>
-      <section class="skillsSection wrapper">
+      <section class="skillsSection wrapper" id="skills">
          <div class="numberedText">
             <h1>03</h1><h2>Skills</h2>
          </div>
@@ -123,6 +127,10 @@
                      <img src="./assets/responsive.svg" alt="">
                      <p>Responsivity</p>
                   </div>
+                  <div>
+                     <img src="./assets/firebase.svg" alt="">
+                     <p>Firebase</p>
+                  </div>
                </div>
             </div>
             <div class="skillsWrapper skillsWrapper__next">
@@ -173,7 +181,7 @@
             </div>
          </div>
       </section>
-      <section class="projects">
+      <section class="projects" id="projects">
          <div class="numberedText projects__numberedText">
             <h1>04</h1><h2>Projects</h2>
          </div>
@@ -185,10 +193,11 @@
                   </div>
                </figure>
                <div class="projectText">
-                  <h3 class="projectTitle">Project Title</h3>
+                  <h3 class="projectTitle">React and ThreeJS experiment</h3>
                   <p class="projectDescription">
-                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed amet quibusdam provident esse dolore nisi explicabo labore iusto rem consequuntur vero quam, quas itaque similique corrupti officia, ex ad ab! Provident doloribus ex cupiditate sint alias iure tempora numquam vitae, quas id sapiente corrupti, eos, placeat quis. Fuga aliquid cumque nobis perferendis minima aliquam rerum earum ea ipsum dolorem delectus ex pariatur quas, assumenda alias asperiores harum odit! Quidem, eveniet debitis unde a tempore illum!
+                     In this project I wanted to learn about utilizying the React framework as a UI for an interactive 3D environment with ThreeJS.
                   </p>
+                  <p><strong>React/ThreeJS</strong></p>
                </div>
             </div>
          </div>
@@ -200,10 +209,11 @@
                   </div>
                </figure>
                <div class="projectText">
-                  <h3 class="projectTitle">Project Title</h3>
+                  <h3 class="projectTitle">Last Minute A.I.</h3>
                   <p class="projectDescription">
-                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed amet quibusdam provident esse dolore nisi explicabo labore iusto rem consequuntur vero quam, quas itaque similique corrupti officia, ex ad ab! Provident doloribus ex cupiditate sint alias iure tempora numquam vitae, quas id sapiente corrupti, eos, placeat quis. Fuga aliquid cumque nobis perferendis minima aliquam rerum earum ea ipsum dolorem delectus ex pariatur quas, assumenda alias asperiores harum odit! Quidem, eveniet debitis unde a tempore illum!
+                     Your A.I. is about to achieve the singularity? How will you influence the personality of the universe's next intellectual super-being?
                   </p>
+                  <p><strong>jQuery/JavaScript</strong></p>
                </div>
             </div>
          </div>
@@ -215,10 +225,11 @@
                   </div>
                </figure>
                <div class="projectText">
-                  <h3 class="projectTitle">Project Title</h3>
+                  <h3 class="projectTitle">Coffee Walks</h3>
                   <p class="projectDescription">
-                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed amet quibusdam provident esse dolore nisi explicabo labore iusto rem consequuntur vero quam, quas itaque similique corrupti officia, ex ad ab! Provident doloribus ex cupiditate sint alias iure tempora numquam vitae, quas id sapiente corrupti, eos, placeat quis. Fuga aliquid cumque nobis perferendis minima aliquam rerum earum ea ipsum dolorem delectus ex pariatur quas, assumenda alias asperiores harum odit! Quidem, eveniet debitis unde a tempore illum!
+                     Plan out a walk between two cafés. Save your coffee walk to be shared with others, or access one of the public walks saved by other users. Made with multiple usages of GoogleMaps APIs.
                   </p>
+                  <p><strong>React/Firebase/API</strong></p>
                </div>
             </div>
          </div>
@@ -230,17 +241,23 @@
                   </div>
                </figure>
                <div class="projectText">
-                  <h3 class="projectTitle">Project Title</h3>
+                  <h3 class="projectTitle">Art Through the Ages</h3>
                   <p class="projectDescription">
-                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed amet quibusdam provident esse dolore nisi explicabo labore iusto rem consequuntur vero quam, quas itaque similique corrupti officia, ex ad ab! Provident doloribus ex cupiditate sint alias iure tempora numquam vitae, quas id sapiente corrupti, eos, placeat quis. Fuga aliquid cumque nobis perferendis minima aliquam rerum earum ea ipsum dolorem delectus ex pariatur quas, assumenda alias asperiores harum odit! Quidem, eveniet debitis unde a tempore illum!
+                     This app allows you to explore object keywords cross-referenced with specific eras. We used APIs that gave access to four different art galleries.
                   </p>
+                  <p><strong>JavaScript/jQuery/API</strong></p>
                </div>
             </div>
          </div>
       </section>
-      <section class="contactSection wrapper">
+      <section class="contactSection wrapper" id="contact">
          <div class="contactSection__trianglesSide">
-
+            <div class="bottomTriangles__wrapper">
+               <div class="triangle triangle1 triangleUp"></div>
+               <div class="triangle triangle2 triangleDown"></div>
+               <div class="triangle triangle3 triangleUp"></div>
+               <!-- <div class="triangle triangle4 triangleDown"></div> -->
+            </div>
          </div>
          <div class="contactSection__inputSide">
             <div class="numberedText numberedText__contact">
@@ -266,7 +283,8 @@
                </form>
             </div>
             <div class="otherContactWrapper">
-               <a>
+               <p>...or by email</p>
+               <a class="emailWrapper">
                   <i class="far fa-envelope fa-2x"></i>
                   <span>aaron(at)aaronjanke.com</span>
                </a>
@@ -277,12 +295,13 @@
          <div class="footerFlex wrapper">
             <h3>Aaron Janke</h3>
             <nav class="contactNav contactNav__bottom">
-               <li><a href="">twitter</a></li>
-               <li><a href="">linkedIn</a></li>
+               <li><a href="https://twitter.com/aaronjanke" target="_blank">twitter</a></li>
+               <li><a href="https://www.linkedin.com/in/aaron-janke-7827a947/" target="_blank">linkedIn</a></li>
             </nav>
          </div>
       </footer>
    </main>
+   <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
    <script src="https://cdn.jsdelivr.net/npm/typeit@5.5.2/dist/typeit.min.js"></script>
    <script src="./public/scripts/main.js"></script>
 </body>

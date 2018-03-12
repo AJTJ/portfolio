@@ -1,5 +1,5 @@
 .projectContainer {
-   margin-top: 100px;
+   margin-top: 50px;
 }
 
 .project {
@@ -9,17 +9,18 @@
 }
 
 .projects__numberedText {
+   padding-top: 80px;
    max-width: 100%;
    text-align: center;
 }
 
 .projectBackground__left {
-   background: linear-gradient(to right, $accentColor, $accentColor 35%, white 40%, white);
+   background: linear-gradient(to right, $lightAccentColor, rgba(204, 204, 204, 0.062)) ;
 }
 
-.projectBackground__right {
-   background: linear-gradient(to left, $accentColor, $accentColor 35%, white 40%, white);
-}
+// .projectBackground__right {
+//    // background: linear-gradient(to left, $accentColor, $accentColor 35%, white 40%, white);
+// }
 
 .projectFigure {
    display: flex;
@@ -39,6 +40,9 @@
    // align-items: center;
    flex-direction: column;
    justify-content: center; 
+   p {
+      padding: 10px 0;
+   }
 }
 
 .projectTitle {

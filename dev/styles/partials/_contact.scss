@@ -1,10 +1,18 @@
 .contactSection {
-   margin-top: 50px;
+   padding-top: 50px;
    display: flex;
 }
 
 .contactSection__trianglesSide {
    width: 50%;
+   position: relative;
+   transform: rotate(90deg);
+   top: -103px;
+   left: -15px;
+}
+
+.bottomTriangles__wrapper {
+   
 }
 
 .contactSection__inputSide {
@@ -13,7 +21,6 @@
 
 .numberedText__contact {
    position: relative;
-   left: -50px;
 }
 
 .formWrapper {
@@ -78,6 +85,26 @@
    align-items: flex-start;
    label {
       margin-top: 50px;
+   }
+}
+
+.otherContactWrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   p {
+      text-align: center;
+      padding: 20px 0;
+   }
+}
+
+.emailWrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   span {
+      margin-left: 20px;
    }
 }
 

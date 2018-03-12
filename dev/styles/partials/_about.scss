@@ -4,22 +4,35 @@
 }
 
 .headshotDiv {
-   background: rgb(236, 236, 236);
+   background: url("/assets/headshotLONG.jpg");
+   background-size: cover;
    height: 400px;
+   max-width: 100%;
+   margin: 0 auto;
+   box-shadow: 10px 10px 10px $accentColor;
 }
 
 .headshotFigure {
-   width: 50%;
+   // width: 50%;
    margin-right: 50%;
    
    img {
-      max-height: 600px;
+      max-height: 400px;
+      margin-left: 50px;
    }
 }
 
 .aboutText {
    width: 50%;
-   margin-left: 50%;
+   margin-left: 35%;
+   // background: lightgray;
+}
+
+.numberedText__about {
+   position: relative;
+   top: -55px;
+   padding: 25px 0 0 0;
+   // right: -40%;
 }
 
 .aboutText__paragraph {

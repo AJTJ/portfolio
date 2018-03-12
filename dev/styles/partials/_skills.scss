@@ -9,24 +9,26 @@
 .skillsWrapper {
    display: flex;
    align-items: center;
-   justify-content: flex-end;
+   // justify-content: flex-end;
 
-   h3 {
+   h3,em {
+      font-size: 18px;
       padding: 0 15px;
-      min-width: 200px;
-      text-align: center;
+      min-width: 350px;
+      max-width: 350px;
+      text-align: right;
    }
 }
 
 .skillIcons {
    display: flex;
    flex-wrap: wrap;
-   justify-content: flex-end;
+   // justify-content: flex-end;
    padding: 0 20px;
    color: $iconColor;
    // height: 60px;
    line-height: 0;
-   font-size: 80px;
+   font-size: 75px;
    border-right: $accentColor 1px solid;
    border-left: $accentColor 1px solid;
 
@@ -63,7 +65,8 @@
 
 .dungeonWrapper {
    p {
-      position: static;
+      position: relative;
+      top: 5px;
    }
 }
 

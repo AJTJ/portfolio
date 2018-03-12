@@ -2,11 +2,14 @@
 
 .topNav {
    background: black;
+   position: fixed;
+   width: 100%;
+   z-index: 20;
 }
 
 .topNav__Flex {
    display: flex;
-   height: 80px;
+   height: 50px;
    align-items: center;
    justify-content: space-between;
 
@@ -27,6 +30,7 @@
       font-size: 13px;
       font-weight: 700;
       border-bottom: 1px solid transparent;
+      padding-bottom: 5px;
 
       &:hover,
       &:active {
@@ -39,18 +43,23 @@
 //HERO IMAGE ZONE
 
 .hero {
-   min-height: 100vh;
-   background: black;  
+   max-height: 100vh;
+   min-height: 800px;
+   min-width: 100%;
+   background: linear-gradient(to right, black, black 30%, transparent), url("/assets/particleFace.jpg");  
+   background-size: cover;
 }
 
 .hero__flex {
-   display: flex;
-   align-items: center;
+
    height: 100vh;
 }
 
 .numberedText__hero {
+   padding-top: 30%;
+   max-width: 700px;
    h1, h2 {
-      color: $softFontColor;
+      width: 50%;
+      color: $accentColor;
    }
 }
