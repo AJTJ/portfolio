@@ -20,7 +20,9 @@
    justify-content: space-between;
 
    h3 {
-      color: white;
+      color: $lightShapeColor;
+      font-family: $titleFont;
+      font-size: 35px;
       padding: 0 20px;
    }
 }
@@ -117,7 +119,7 @@
 .hero {
    max-height: 100vh;
    min-height: 750px;
-   min-width: 100%;
+   // min-width: 100%;
    background: linear-gradient(to right, black, black 30%, transparent), url("/assets/triangleBG.jpg");  
    background-size: cover;
 }

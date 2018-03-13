@@ -111,6 +111,7 @@
    //MEDIUM TRIANGLES
    .hero {
       min-height: 0;
+      background-size: inherit;
    }
    .triangle {
       height: 130px;
@@ -202,7 +203,7 @@
       }
    }
    .skillIcons {
-      // justify-content: space-around;
+      justify-content: space-around;
 
       p {
          font-size: 12px;
@@ -254,6 +255,12 @@
    .contactSection__inputSide {
       width: 80%;
    }
+
+   .headshotDiv {
+      background: url("/assets/headshotSHORT.jpg");
+      background-size: cover;
+      height: 400px;
+   }
 }
 
 @media (max-width: 570px) {
@@ -298,13 +305,16 @@
    .skillIcons {
       font-size: 24px;
       div {
-         margin: 5px 4px;
+         margin: 5px 2px;
       }
    }
 
    .currentSkills__icons {
       img {
          height: 24px;
+      }
+      div {
+         margin: 5px 7px;
       }
    }
 
@@ -420,13 +430,22 @@
    .triangle4::before,
    .triangle6::before,
    .trianglePre::before, {
-      width: 60px;
-      height: 60px;
+      content: "";
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
    }
 
    .topTriangles {
       width: 20px;
-      top: 230px;
+      top: -75px;
       left: 50px;
    }
 
