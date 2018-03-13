@@ -108,12 +108,21 @@
    display: flex;
    align-items: center;
    justify-content: space-around;
+   color: $iconColor;
    span {
       margin-left: 20px;
    }
 
-   &:hover, &:active {
-      color: orange;
+   padding: 5px 10px;
+   border-right: 4px solid transparent;
+   border-left: 4px solid transparent;
+   border-radius: 20px;
+
+   &:hover,
+   &:active {
+      color: $lightShapeColor;
+      border-right: 4px solid $lightShapeColor;
+      border-left: 4px solid $lightShapeColor;
    }
 }
 

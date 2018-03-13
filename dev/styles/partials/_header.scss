@@ -27,6 +27,8 @@
    }
 }
 
+
+
 .topNav__wrapper {
    display: flex;
    color: white;
@@ -49,6 +51,15 @@
          color: $lightShapeColor;
          border-right: 4px solid $lightShapeColor;
          border-left: 4px solid $lightShapeColor;
+      }
+   }
+}
+
+.topNav__wrapperSocials {
+   li {
+      padding: 5px;
+      a {
+         font-size: 17px;
       }
    }
 }

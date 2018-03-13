@@ -3,7 +3,7 @@ $titleFont: 'Ruthie', cursive;
 
 //Colors
 
-$linkColor: rgb(112, 112, 112);
+$linkColor: rgb(219, 219, 219);
 $mainTextColor: rgb(102, 102, 102);
 $darkHeaderColor: rgb(51, 51, 51);
 $iconColor: rgb(90, 90, 93);
@@ -23,8 +23,8 @@ li {
 
 a {
    text-decoration: none;
-   color: $linkColor;
    transition: all 0.2s;
+   color: $linkColor;
 }
 
 h1, h2, h3, h4, h5, p {

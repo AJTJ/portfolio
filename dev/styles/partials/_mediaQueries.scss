@@ -98,12 +98,33 @@
 
    //SKILLS
    .skillsWrapper {
+      flex-direction: column;
       h3 {
-         padding: 0;
-         font-size: 14px;
-         min-width: 150px;
-         max-width: 150px;
+         text-align: center;
+         margin: 30px 0;
+         padding-bottom: 5px;
+         border-bottom: 1px solid $lightShapeColor;
+         // min-width: 150px;
+         // max-width: 150px;
+         em {
+            font-size: 18px;
+         }
       }
+   }
+   .skillIcons {
+      width: 95%;
+      justify-content: space-around;
+      div {
+         width: 23%;
+         i, svg {
+            text-align: center;
+            margin: 0 auto;
+         }
+      }
+   }
+
+   .otherSkills__icons {
+      padding-bottom: 200px;
    }
 }
 
@@ -195,20 +216,15 @@
    }
 
    //SKILLS 
-   .skillsWrapper {
-      flex-direction: column;
+   // .skillsWrapper {
 
-      h3 {
-         text-align: center;
-      }
-   }
-   .skillIcons {
-      justify-content: space-around;
+   // }
 
-      p {
-         font-size: 12px;
-      }
-   }
+
+   //    p {
+   //       font-size: 12px;
+   //    }
+   // }
    
    //PROJECT
    .project {
@@ -305,8 +321,11 @@
    .skillIcons {
       font-size: 24px;
       div {
-         margin: 5px 2px;
+         width: 28%;
+         margin: 15px 2px;
       }
+      border-right: none;
+      border-left: none;
    }
 
    .currentSkills__icons {
@@ -314,7 +333,7 @@
          height: 24px;
       }
       div {
-         margin: 5px 7px;
+         margin: 15px 7px;
       }
    }
 
