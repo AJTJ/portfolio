@@ -1,6 +1,7 @@
 @import "partials/setup";
-@import "partials/global";
 @import "partials/typographyColors";
+@import "partials/global";
+
 
 @import "partials/header";
 
@@ -11,3 +12,5 @@
 @import "partials/contact";
 @import "partials/footer";
 @import "partials/cloth";
+
+@import "partials/mediaQueries";

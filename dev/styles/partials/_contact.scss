@@ -1,22 +1,35 @@
 .contactSection {
    padding-top: 50px;
    display: flex;
+   justify-content: space-around;
 }
 
 .contactSection__trianglesSide {
-   width: 50%;
+   width: 20%;
    position: relative;
-   transform: rotate(90deg);
-   top: -103px;
-   left: -15px;
+   // transform: rotate(90deg);
+   // top: -150px;
+   // left: 300px;
 }
 
-.bottomTriangles__wrapper {
-   
+.triangle1Bottom, 
+.triangle2Bottom {
+   right: -100px;
 }
+.triangle1Bottom {
+   top: -150px;
+}
+.triangle2Bottom {
+   top: 52px;
+}
+
+// .bottomTriangles__wrapper {
+   
+// }
 
 .contactSection__inputSide {
-   width: 50%;
+   width: 60%;
+   padding-right: 20px;
 }
 
 .numberedText__contact {
@@ -29,25 +42,28 @@
       font-weight: 700;
       width: 75px;
       text-align: right;
-      margin-right: 30px;
+      margin-right: 15px;
    }
 
-   input {
+   #emailInput,
+   #nameInput, {
       height: 60px;
 
    }
 
-   input,
+   #emailInput,
+   #nameInput,
    textarea {
       border: none;
       border-bottom: $accentColor 1px solid;
       width: 100%;
-      padding: 10px 5px;
+      padding: 10px 6px;
    }
 
    textarea {
       margin-top: 40px;
       resize: none;
+      padding-left: 0;
    }
 
    .submitWrapper {
@@ -56,23 +72,8 @@
       align-items: center;
       height: 50px;
    }
-   .submitInput {
-      border: none;
-      // text-align: right;
-      width: 100px;
-      height: 35px;
-      border: 1px solid $softFontColor;
-      color: $softFontColor;
-      border-radius: 10px;
-
-      &:hover,
-      &:active, {
-         border: 1px solid $darkHeaderColor;
-         color: $darkHeaderColor;
-         border-radius: 10px;
-      }
-   }
 }  
+
 
 
 .inputWrapper,
@@ -105,6 +106,10 @@
    justify-content: space-around;
    span {
       margin-left: 20px;
+   }
+
+   &:hover, &:active {
+      color: orange;
    }
 }
 

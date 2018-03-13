@@ -9,12 +9,29 @@ let instance = new TypeIt('#element', {
    lifeLike: true
 })
 // .options({ speed: 100 })
-.type('Hello, my name is Aaron Janke and I\'m a Web Developer')
-.pause(4000)
-.options({ speed: 200})
-.delete()
-.type('Thanks for dropping by. :)')
+.type('Hello, my name is Aaron Janke and I\'m a Web Developer.')
+.pause(2000)
+// .options({ speed: 200})
+// .delete()
+// .type('Thanks for dropping by. :)')
 ;
+
+$(document).ready(function () {
+   $('a').smoothScroll({
+      speed: 300,
+      easing: 'swing',
+      // direction: 'bottom',
+   });
+   $('.hamburger').on('click', function () {
+      // toggle class overlay on the menu
+      $('.topNav').toggleClass('overlay');
+
+      // toggle class show on the ul inside of the menu
+      $('.topNav nav').toggleClass('show');
+   })
+});
+
+
 
 //EVERYTHING TO DO WITH SMOOTH SCROLL
 
@@ -376,11 +393,6 @@ let instance = new TypeIt('#element', {
 
 }));
 
-$('a').smoothScroll({
-   speed: 300,
-   easing: 'swing',
-   // direction: 'bottom',
-});
 
 
 

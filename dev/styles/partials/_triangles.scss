@@ -28,7 +28,7 @@
 
 .topTriangles__spacer {
    position: absolute;
-   left: 40%;
+   left: 50%;
 }
 
 .triangle1::before,
@@ -39,7 +39,7 @@
    display:block;
    width:100%;
    height:100%;
-   background: linear-gradient(to bottom, transparent, rgb(33, 49, 76), rgb(33, 49, 76), transparent, transparent) fixed;
+   background: linear-gradient(to top, transparent, transparent, rgb(165, 116,5),wheat, transparent) fixed;
 }
 
 .triangle2::before,
@@ -49,17 +49,22 @@
    display:block;
    width:108%;
    height:150%;
-   transform: rotate(90deg);
-   background: linear-gradient(to top, transparent, rgb(33, 49, 76), blue, yellow) fixed;
+   // transform: rotate(90deg);
+   background: linear-gradient(to top, transparent, rgb(165, 116,5), firebrick, wheat) fixed;
 }
-.trianglePre::before {
+.trianglePre::before,
+.triangleConstant::before {
    content:"";
    display:block;
    width:100%;
    height:100%;
    // transform: rotate(250deg);
-   background: linear-gradient(to bottom, rgb(191, 243, 255), rgb(235, 251, 255)) fixed;
+   background: linear-gradient(to top, rgb(165, 116,5), firebrick) fixed;
 }
+
+// .triangleConstant {
+//    left: -144px;
+// }
 
 .trianglePre {
    left: -144px;

@@ -5,26 +5,27 @@ footer {
 }
 
 .footerFlex {
-   display: flex;
-   justify-content: space-between;
-}
+   text-align: center;
+//    display: flex;
+//    justify-content: space-between;
+// }
 
-.contactNav__bottom {
-   display: flex;
+// .contactNav__bottom {
+//    display: flex;
 
-   li {
-      padding: 0 15px;
-   }
+//    li {
+//       padding: 0 15px;
+//    }
 
-   a {
-      font-size: 13px;
-      font-weight: 700;
-      border-bottom: 1px solid transparent;
+//    a {
+//       font-size: 13px;
+//       font-weight: 700;
+//       border-bottom: 1px solid transparent;
 
-      &:hover,
-      &:active {
-         color: black;
-         border-bottom: black solid 1px;
-      }
-   }
+//       &:hover,
+//       &:active {
+//          color: black;
+//          border-bottom: black solid 1px;
+//       }
+//    }
 }

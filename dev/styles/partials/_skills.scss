@@ -29,8 +29,9 @@
    // height: 60px;
    line-height: 0;
    font-size: 75px;
-   border-right: $accentColor 1px solid;
-   border-left: $accentColor 1px solid;
+   margin: 5px 10px;
+   border-right: $accentColor 2px solid;
+   border-left: $accentColor 2px solid;
 
    p {
       font-size: 15px;
@@ -41,7 +42,9 @@
       padding: 0 10px;
    }
    div {
-      margin: 15px 0;
+      margin: 15px 5px;
+      display: flex;
+      flex-direction: column;
    }
 }
 

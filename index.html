@@ -21,17 +21,21 @@
                <li><a href="#projects">Projects</a></li>
                <li><a href="#contact">Contact</a></li>
             </nav>
-            <nav class="topNav__wrapper">
-               <li><a href="https://twitter.com/aaronjanke" target="_blank">twitter</a></li>
-               <li><a href="https://www.linkedin.com/in/aaron-janke-7827a947/" target="_blank">linkedIn</a></li>
+            <nav class="topNav__wrapper topNav__wrapperSocials">
+               <li><a href="https://twitter.com/aaronjanke" target="_blank"><i class="fab fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/aaron-janke-7827a947/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+               <li><a href="https://github.com/AJTJ" target="_blank"><i class="fab fa-github"></i></a></li>
             </nav>
+            <p class="hamburger">
+               <i class="fa fa-bars" aria-hidden="true"></i>
+            </p>
          </div>
       </div>
       <div class="hero">
          <div class="wrapper hero__flex">
             <div class="hero__text">
                <div class="numberedText numberedText__hero">
-                  <h1>01</h1><h2 id="element"></h2>
+                  <h2 id="element"></h2>
                </div>
             </div>
          </div>
@@ -42,6 +46,7 @@
       <div class="topTriangles wrapper">
          <div class="topTriangles__spacer">
             <a href="#about"><div class="triangle trianglePre triangleDown"></div></a>
+            <!-- <div class="triange triangleDown triangleConstant"></div> -->
             <div class="triangle triangleUp triangle1"></div>
             <div class="triangle triangleDown triangle2"></div>
             <div class="triangle triangleUp triangle3"></div>
@@ -52,7 +57,7 @@
          </div>
       </div>
       <section class="aboutSection">
-         <div class="headshotDiv" id="about">
+         <div class="headshotDiv wrapper" id="about">
             <figure class="headshotFigure">
                <!-- <img class="headshot" src="./assets/headshotMin.JPG" alt=""> -->
             </figure>
@@ -60,11 +65,11 @@
          <div class="wrapper">
             <div class="aboutText">
                <div class="numberedText numberedText__about">
-                  <h1>02</h1><h2>About Me</h2>
+                  <h1>01</h1><h2>About Me</h2>
                </div>
                <div class="aboutText__paragraph">
                   <h4><em>I like to create things.</em></h4>
-                  <p>And I like to solve puzzles. One of my favorite things is getting a new board game and learning how to implement the rules as quickly and strategically as possible. I like finding succint, elegant solutions for my coding challenges.</p>
+                  <p>And I like to solve puzzles. One of my favorite things is getting a new board game and learning how to implement the rules as quickly and strategically as possible. I like finding succinct, elegant solutions for my coding challenges.</p>
                   <p>I have a BFA in performing and writing and compare my interest in narrative and story structure to my interest in the architecture of good, clean code. Web development, game design and artificial intelligence fascinates me.</p>
                   <h4></h4>
                </div>
@@ -73,7 +78,7 @@
       </section>
       <section class="skillsSection wrapper" id="skills">
          <div class="numberedText">
-            <h1>03</h1><h2>Skills</h2>
+            <h1>02</h1><h2>Skills</h2>
          </div>
          <div class="allSkills__wrapper">
             <div class="skillsWrapper skillsWrapper__current">
@@ -134,7 +139,7 @@
                </div>
             </div>
             <div class="skillsWrapper skillsWrapper__next">
-               <h3><em>Things I'm working on</em></h3>
+               <h3><em>In progress</em></h3>
                <div class="skillIcons nextSkills__icons">
                   <div>
                      <i class="devicon-nodejs-plain"></i>
@@ -151,7 +156,7 @@
                </div>
             </div>
             <div class="skillsWrapper skillsWrapper__other">
-               <h3><em>Other things I'm digging into</em></h3>
+               <h3><em>Other things</em></h3>
                <div class="skillIcons otherSkills__icons">
                   <div class="dungeonWrapper">
                      <i class="dungeonIcon fab fa-d-and-d"></i>
@@ -183,10 +188,10 @@
       </section>
       <section class="projects" id="projects">
          <div class="numberedText projects__numberedText">
-            <h1>04</h1><h2>Projects</h2>
+            <h1>03</h1><h2>Projects</h2>
          </div>
          <div class="projectContainer projectBackground__left">
-            <div class="project projectLeft aiProject wrapper">
+            <div class="project projectLeft threejsProject wrapper">
                <figure class="projectFigure">
                   <div class="projectImg__wrapper">
                      <img src="./assets/threeJSLaptop.png" alt="" class="projectImage">
@@ -198,6 +203,7 @@
                      In this project I wanted to learn about utilizying the React framework as a UI for an interactive 3D environment with ThreeJS.
                   </p>
                   <p><strong>React/ThreeJS</strong></p>
+                  <div class="projectLink__wrapper"><a class="projectLink generalButton" href="/threeJS" target="_blank">View it online</a></div>
                </div>
             </div>
          </div>
@@ -205,7 +211,7 @@
             <div class="project projectRight coffeeProject wrapper">
                <figure class="projectFigure">
                   <div class="projectImg__wrapper">
-                     <img src="" alt="" class="projectImage">
+                     <img src="./assets/coffeeWalksMockup.png" alt="" class="projectImage">
                   </div>
                </figure>
                <div class="projectText">
@@ -214,14 +220,15 @@
                      Your A.I. is about to achieve the singularity? How will you influence the personality of the universe's next intellectual super-being?
                   </p>
                   <p><strong>jQuery/JavaScript</strong></p>
+                  <div class="projectLink__wrapper"><a class="projectLink generalButton" href="/lastMinuteAI" target="_blank">View it online</a></div>
                </div>
             </div>
          </div>
          <div class="projectContainer projectBackground__left">
-            <div class="project projectLeft threejsProject wrapper">
+            <div class="project projectLeft aiProject wrapper">
                <figure class="projectFigure">
                   <div class="projectImg__wrapper">
-                     <img src="" alt="" class="projectImage">
+                     <img src="./assets/aiMockup.png" alt="" class="projectImage">
                   </div>
                </figure>
                <div class="projectText">
@@ -230,6 +237,7 @@
                      Plan out a walk between two cafés. Save your coffee walk to be shared with others, or access one of the public walks saved by other users. Made with multiple usages of GoogleMaps APIs.
                   </p>
                   <p><strong>React/Firebase/API</strong></p>
+                  <div class="projectLink__wrapper"><a class="projectLink generalButton" href="/coffeeWalks" target="_blank">View it online</a></div>
                </div>
             </div>
          </div>
@@ -246,6 +254,7 @@
                      This app allows you to explore object keywords cross-referenced with specific eras. We used APIs that gave access to four different art galleries.
                   </p>
                   <p><strong>JavaScript/jQuery/API</strong></p>
+                  <div class="projectLink__wrapper"><a class="projectLink generalButton" href="/artAges" target="_blank">View it online</a></div>
                </div>
             </div>
          </div>
@@ -253,9 +262,8 @@
       <section class="contactSection wrapper" id="contact">
          <div class="contactSection__trianglesSide">
             <div class="bottomTriangles__wrapper">
-               <div class="triangle triangle1 triangleUp"></div>
-               <div class="triangle triangle2 triangleDown"></div>
-               <div class="triangle triangle3 triangleUp"></div>
+               <div class="triangle triangle1 triangle1Bottom triangleUp"></div>
+               <div class="triangle triangle2 triangle2Bottom triangleDown"></div>
                <!-- <div class="triangle triangle4 triangleDown"></div> -->
             </div>
          </div>
@@ -264,27 +272,28 @@
                <h1>04</h1><h2>Contact</h2>
             </div>
             <div class="formWrapper">
-               <form action="" class="contactForm">
+               <form action="https://formspree.io/janke.aaron@gmail.com"
+               method="POST" class="contactForm">
                   <div class="inputWrapper">
                      <label for="nameInput">name</label>
-                     <input type="text" id="nameInput" placeholder="Alfred Hitchcock">
+                     <input type="text" id="nameInput" name="name" placeholder="Alfred Hitchcock">
                   </div>
                   <div class="inputWrapper">
                      <label for="emailInput">e-mail</label>
-                     <input type="email" name="" id="emailInput" placeholder="alfred.hitchcock@popcorn.com">
+                     <input type="email" name="_replyto" id="emailInput" placeholder="alfred.hitchcock@popcorn.com">
                   </div>
                   <div class="textareaWrapper">
                      <label for="textArea">comment</label>
-                     <textarea name="" id="textArea" cols="30" rows="10" placeholder="content..."></textarea>
+                     <textarea name="textArea" id="textArea" cols="30" rows="10" placeholder="content..."></textarea>
                   </div>
                   <div class="submitWrapper">
-                     <input class="submitInput" type="submit" value="Send">
+                     <input class="submitInput generalButton" type="submit" value="Send">
                   </div>
                </form>
             </div>
             <div class="otherContactWrapper">
                <p>...or by email</p>
-               <a class="emailWrapper">
+               <a href="mailto:aaron@aaronjanke.com" class="emailWrapper">
                   <i class="far fa-envelope fa-2x"></i>
                   <span>aaron(at)aaronjanke.com</span>
                </a>
@@ -293,11 +302,7 @@
       </section>
       <footer >
          <div class="footerFlex wrapper">
-            <h3>Aaron Janke</h3>
-            <nav class="contactNav contactNav__bottom">
-               <li><a href="https://twitter.com/aaronjanke" target="_blank">twitter</a></li>
-               <li><a href="https://www.linkedin.com/in/aaron-janke-7827a947/" target="_blank">linkedIn</a></li>
-            </nav>
+            <h3>© Aaron Janke</h3>
          </div>
       </footer>
    </main>

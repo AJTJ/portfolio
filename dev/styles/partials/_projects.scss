@@ -1,15 +1,15 @@
 .projectContainer {
-   margin-top: 50px;
+   padding: 25px 0;
 }
 
 .project {
    display: flex;
    justify-content: space-between;
-   height: 400px;
+   height: 500px;
 }
 
 .projects__numberedText {
-   padding-top: 80px;
+   padding-top: 30px;
    max-width: 100%;
    text-align: center;
 }
@@ -44,6 +44,15 @@
       padding: 10px 0;
    }
 }
+
+.projectLink__wrapper {
+   // text-align: center;
+   margin: 10px 0;
+}
+
+// .projectLink {
+
+// }
 
 .projectTitle {
    font-size: 36px;

@@ -5,16 +5,23 @@
    position: fixed;
    width: 100%;
    z-index: 20;
+
+   // display: flex;
+   // align-items: center;
 }
 
 .topNav__Flex {
-   display: flex;
+   background: black;
    height: 50px;
+   width: 100%;
+   padding: 0 5px;
+   display: flex;
    align-items: center;
    justify-content: space-between;
 
    h3 {
       color: white;
+      padding: 0 20px;
    }
 }
 
@@ -30,13 +37,78 @@
       font-size: 13px;
       font-weight: 700;
       border-bottom: 1px solid transparent;
-      padding-bottom: 5px;
+      padding: 5px 10px;
+      border-right: 4px solid transparent;
+      border-left: 4px solid transparent;
+      border-radius: 20px;
 
       &:hover,
       &:active {
-         color: white;
-         border-bottom: white solid 1px;
+         color: $lightShapeColor;
+         border-right: 4px solid $lightShapeColor;
+         border-left: 4px solid $lightShapeColor;
       }
+   }
+}
+
+//HAMBURGER MENU
+
+.overlay.topNav {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.815);
+}
+
+.overlay .topNav__Flex {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   height: 80%;
+   background: none;
+}
+
+.overlay .topNav__Flex nav {
+   display: block;
+   flex-direction: column;
+   width: 100%;
+}
+
+.overlay .topNav__Flex .topNav__wrapperSocials {
+   flex-direction: row;
+   width: 50%;
+}
+
+.overlay .topNav__Flex li {
+   text-align: center;
+   padding: 10px 0;
+   width: 100%;
+}
+.overlay .topNav__wrapper a {
+   font-size: 20px;
+   color: $accentColor;
+	width: 100%;
+   // padding: 30px;
+   &:hover, &:active {
+      color: $lightShapeColor;
+   }
+}
+
+.overlay .hamburger {
+	display: block;
+	font-size: 40px;
+	text-align: center;
+}
+
+.hamburger {
+   display: none;
+   transition: all 0.2s;
+   padding: 0 20px;
+   &:hover, &:active {
+      color: $lightShapeColor;
    }
 }
 
@@ -44,9 +116,9 @@
 
 .hero {
    max-height: 100vh;
-   min-height: 800px;
+   min-height: 750px;
    min-width: 100%;
-   background: linear-gradient(to right, black, black 30%, transparent), url("/assets/particleFace.jpg");  
+   background: linear-gradient(to right, black, black 30%, transparent), url("/assets/triangleBG.jpg");  
    background-size: cover;
 }
 
