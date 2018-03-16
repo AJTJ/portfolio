@@ -3,15 +3,15 @@
    margin: 0 auto;
 }
 
-* {
-   transition: all 0.1s;
+// * {
+//    transition: all 0.1s;
 
-   &:focus {
-      color: $lightShapeColor;
-      border-color: $lightShapeColor;
-      outline: $lightShapeColor auto 5px;
-   }
-}
+//    &:focus {
+//       color: $lightShapeColor;
+//       border-color: $lightShapeColor;
+//       outline: $lightShapeColor auto 5px;
+//    }
+// }
 
 .numberedText {
    // max-width: 600px;
