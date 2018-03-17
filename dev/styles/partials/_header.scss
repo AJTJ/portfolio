@@ -131,7 +131,7 @@
    max-height: 100vh;
    min-height: 750px;
    // min-width: 100%;
-   background: linear-gradient(to right, black, black 30%, transparent), url("/assets/triangleBG.jpg");  
+   background: linear-gradient(to right, black, black 70%, $lightShapeColor 70%, $lightShapeColor), url("/assets/triangleBG.jpg");  
    background-size: cover;
 }
 
@@ -141,10 +141,14 @@
 }
 
 .numberedText__hero {
-   padding-top: 30%;
-   max-width: 700px;
+   padding-top: 20%;
+   max-width: 70%;
    h1, h2 {
-      width: 50%;
       color: $accentColor;
+      font-size: 40px;
    }
+}
+
+.typeName__developer {
+   color: $lightShapeColor;
 }

@@ -8,12 +8,11 @@ let instance = new TypeIt('#element', {
    breakLines: false,
    lifeLike: true
 })
-// .options({ speed: 100 })
-.type('Hello, my name is Aaron Janke and I\'m a Web Developer.')
-.pause(2000)
-// .options({ speed: 200})
-// .delete()
-// .type('Thanks for dropping by. :)')
+   .type(':) Hey, ')
+   .pause(1000)
+   .type('my name is Aaron Janke ')
+   .pause(1000)
+   .type('and I\'m a <span class="typeName__developer">Web Developer</span>.')
 ;
 
 $(document).ready(function () {
