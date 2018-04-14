@@ -14,36 +14,37 @@ $lightShapeColor: rgb(165, 116,5);
 $lightShapeColor__background1: rgba(165, 117, 5, 0.041);
 $lightShapeColor__background2: rgba(165, 117, 5, 0.021);
 body {
-   font-family: $mainFont;
+  font-family: $mainFont;
 }
 
 li {
-   list-style: none;
-   color: $linkColor;
+  list-style: none;
+  color: $linkColor;
 }
 
 a {
-   text-decoration: none;
-   transition: all 0.2s;
-   color: $linkColor;
+  text-decoration: none;
+  transition: all 0.2s;
+  color: $linkColor;
 }
 
 h1, h2, h3, h4, h5, p {
-   margin: 0;
-   color: $darkHeaderColor;
+  margin: 0;
+  color: $darkHeaderColor;
 }
 
 h1 {
-   font-size: 72px;
+  font-size: 72px;
 }
 
 h2 {
-   font-size: 36px;
+  font-size: 36px;
 }
 
 p {
-   line-height: 24px;
-   color: $mainTextColor;
+  line-height: 28px;
+  word-spacing: 1px;
+  color: $mainTextColor;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */

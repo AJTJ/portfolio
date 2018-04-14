@@ -1,154 +1,155 @@
 // TOP NAV
 
 .topNav {
-   background: black;
-   position: fixed;
-   width: 100%;
-   z-index: 20;
+  background: black;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
 
-   // display: flex;
-   // align-items: center;
+  // display: flex;
+  // align-items: center;
 }
 
 .topNav__Flex {
-   background: black;
-   height: 50px;
-   width: 100%;
-   padding: 0 5px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+  background: black;
+  height: 50px;
+  width: 100%;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-   h3 {
-      color: $lightShapeColor;
-      font-family: $titleFont;
-      font-size: 35px;
-      padding: 0 20px;
-   }
+  h3 {
+    color: $lightShapeColor;
+    font-family: $titleFont;
+    font-size: 35px;
+    padding: 0 20px;
+  }
 }
 
 
 
 .topNav__wrapper {
-   display: flex;
-   color: white;
+  display: flex;
+  color: white;
 
-   li {
-      padding: 0 15px;
-   }
+  li {
+    padding: 0 15px;
+  }
 
-   a {
-      font-size: 13px;
-      font-weight: 700;
-      border-bottom: 1px solid transparent;
-      padding: 5px 10px;
-      border-right: 4px solid transparent;
-      border-left: 4px solid transparent;
-      border-radius: 20px;
+  a {
+    font-size: 13px;
+    font-weight: 700;
+    border-bottom: 1px solid transparent;
+    padding: 5px 10px;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-radius: 20px;
 
-      &:hover,
-      &:active {
-         color: $lightShapeColor;
-         border-right: 4px solid $lightShapeColor;
-         border-left: 4px solid $lightShapeColor;
-      }
-   }
+    &:hover,
+    &:active {
+      color: $lightShapeColor;
+      border-right: 4px solid $lightShapeColor;
+      border-left: 4px solid $lightShapeColor;
+    }
+  }
 }
 
 .topNav__wrapperSocials {
-   li {
-      padding: 5px;
-      a {
-         font-size: 17px;
-      }
-   }
+  li {
+    padding: 5px;
+    a {
+      font-size: 17px;
+    }
+  }
 }
 
 //HAMBURGER MENU
 
 .overlay.topNav {
-	display: block;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: rgba(0, 0, 0, 0.815);
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.815);
 }
 
 .overlay .topNav__Flex {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   height: 80%;
-   background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+  background: none;
 }
 
 .overlay .topNav__Flex nav {
-   display: block;
-   flex-direction: column;
-   width: 100%;
+  display: block;
+  flex-direction: column;
+  width: 100%;
 }
 
 .overlay .topNav__Flex .topNav__wrapperSocials {
-   flex-direction: row;
-   width: 50%;
+  flex-direction: row;
+  width: 50%;
 }
 
 .overlay .topNav__Flex li {
-   text-align: center;
-   padding: 10px 0;
-   width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
 }
 .overlay .topNav__wrapper a {
-   font-size: 20px;
-   color: $accentColor;
-	width: 100%;
-   // padding: 30px;
-   &:hover, &:active {
+  font-size: 20px;
+  color: $accentColor;
+  width: 100%;
+  // padding: 30px;
+  &:hover, &:active {
       color: $lightShapeColor;
-   }
+  }
 }
 
 .overlay .hamburger {
-	display: block;
-	font-size: 40px;
-	text-align: center;
+  display: block;
+  font-size: 40px;
+  text-align: center;
 }
 
 .hamburger {
-   display: none;
-   transition: all 0.2s;
-   padding: 0 20px;
-   &:hover, &:active {
-      color: $lightShapeColor;
-   }
+  display: none;
+  transition: all 0.2s;
+  padding: 0 20px;
+  &:hover, &:active {
+    color: $lightShapeColor;
+  }
 }
 
 //HERO IMAGE ZONE
 
 .hero {
-   max-height: 100vh;
-   min-height: 750px;
-   // min-width: 100%;
-   background: linear-gradient(to right, black, black 70%, $lightShapeColor 70%, $lightShapeColor), url("/assets/triangleBG.jpg");  
-   background-size: cover;
+  max-height: 100vh;
+  min-height: 750px;
+  // min-width: 100%;
+  background: linear-gradient(to right, black, black 70%, transparent 70%, transparent), url("/assets/triangleBG.jpg");  
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .hero__flex {
 
-   height: 100vh;
+  height: 100vh;
 }
 
 .numberedText__hero {
-   padding-top: 20%;
-   max-width: 70%;
-   h1, h2 {
-      color: $accentColor;
-      font-size: 40px;
-   }
+  padding-top: 20%;
+  max-width: 70%;
+  h1, h2 {
+    color: $accentColor;
+    font-size: 40px;
+  }
 }
 
 .typeName__developer {
-   color: $lightShapeColor;
+  color: $lightShapeColor;
 }

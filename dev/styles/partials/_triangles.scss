@@ -1,100 +1,96 @@
 // TRIANGLES
 
 .triangle {
-   height: 199px;
-   width: 278px;
-   display: inline-block;
-   position: absolute;
+  height: 199px;
+  width: 278px;
+  display: inline-block;
+  position: absolute;
 }
 
 .triangleUp {
-   -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
 .triangleDown {
-   -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
-   clip-path: polygon(0 0, 50% 100%, 100% 0);
+  -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
 }
 
 //TOP TRIANGLES
 
 .topTriangles {
-   position: relative;
-   top: -270px;
-   display: block;
-   z-index: 10;
+  position: relative;
+  top: -270px;
+  display: block;
+  z-index: 10;
 }
 
 .topTriangles__spacer {
-   position: absolute;
-   left: 50%;
+  position: absolute;
+  left: 50%;
 }
 
 .triangle1::before,
 .triangle3::before,
 .triangle5::before,
 .triangle7::before {
-   content:"";
-   display:block;
-   width:100%;
-   height:100%;
-   background: linear-gradient(to top, transparent, transparent, rgb(165, 116,5),wheat, transparent) fixed;
+  content:"";
+  display:block;
+  width:100%;
+  height:100%;
+  background: linear-gradient(to top, transparent, transparent, rgb(165, 116,5),wheat, transparent) fixed;
 }
 
 .triangle2::before,
 .triangle4::before,
 .triangle6::before {
-   content:"";
-   display:block;
-   width:108%;
-   height:150%;
-   // transform: rotate(90deg);
-   background: linear-gradient(to top, transparent, rgb(165, 116,5), firebrick, wheat) fixed;
+  content:"";
+  display:block;
+  width:108%;
+  height:150%;
+  // transform: rotate(90deg);
+  background: linear-gradient(to top, transparent, rgb(165, 116,5), firebrick, wheat) fixed;
 }
 .trianglePre::before,
 .triangleConstant::before {
-   content:"";
-   display:block;
-   width:100%;
-   height:100%;
-   // transform: rotate(250deg);
-   background: linear-gradient(to top, rgb(165, 116,5), firebrick) fixed;
+  content:"";
+  display:block;
+  width:100%;
+  height:100%;
+  // transform: rotate(250deg);
+  background: linear-gradient(to top, rgb(165, 116,5), firebrick) fixed;
 }
 
-// .triangleConstant {
-//    left: -144px;
-// }
-
 .trianglePre {
-   left: -144px;
+  left: -144px;
 }
 
 .triangle2 {
-   top: 203px;
+  top: 203px;
 }
 
 .triangle3 {
-   top: 204px;
-   left: 144px;
+  top: 204px;
+  left: 144px;
 }
 
 .triangle4 {
-   top: 408px;
-   left: 145px;
+  top: 408px;
+  left: 145px;
 }
 
 .triangle5 {
-   top: 408px;
-   left: 288px;
+  top: 408px;
+  left: 288px;
 }
 
 .triangle6 {
-   top: 612px;
-   left: 288px;
+  top: 612px;
+  left: 288px;
 }
 
 .triangle7 {
-   top: 612px;
-   left: 145px;
+  top: 612px;
+  left: 145px;
 }

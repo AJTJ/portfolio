@@ -1,42 +1,42 @@
 .aboutSection {
-   padding-top: 150px;
-   position: relative;
+  padding-top: 150px;
+  position: relative;
 }
 
 .headshotDiv {
-   background: url("/assets/headshotLONG.jpg");
-   background-size: cover;
-   height: 400px;
-   // max-width: 100%;
-   // box-shadow: 10px 10px 10px $accentColor;
-   // margin-left: 400px;
+  background: url("/assets/headshotLONG.jpg");
+  background-size: cover;
+  height: 400px;
+  // max-width: 100%;
+  // box-shadow: 10px 10px 10px $accentColor;
+  // margin-left: 400px;
 }
 
 .headshotFigure {
-   // width: 50%;
-   margin-right: 50%;
-   
-   img {
-      max-height: 400px;
-      margin-left: 50px;
-   }
+  // width: 50%;
+  margin-right: 50%;
+  
+  img {
+    max-height: 400px;
+    margin-left: 50px;
+  }
 }
 
 .aboutText {
-   width: 50%;
-   margin-left: 35%;
-   // background: lightgray;
+  width: 50%;
+  margin-left: 35%;
+  // background: lightgray;
 }
 
 .numberedText__about {
-   position: relative;
-   top: -55px;
-   padding: 25px 0 0 0;
-   // right: -40%;
+  position: relative;
+  top: -55px;
+  padding: 25px 0 0 0;
+  // right: -40%;
 }
 
 .aboutText__paragraph {
-   p {
-      padding-top: 10px;
-   }
+  p {
+    padding-top: 20px;
+  }
 }

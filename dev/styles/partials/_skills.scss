@@ -1,80 +1,80 @@
 .skillsSection {
-   padding: 40px 0;
+  padding: 40px 0;
 }
 
 .allSkills__wrapper {
-   margin: 0 auto;
+  margin: 0 auto;
 }
 
 .skillsWrapper {
-   display: flex;
-   align-items: center;
-   // justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  // justify-content: flex-end;
 
-   h3,em {
-      font-size: 18px;
-      padding: 0 15px;
-      min-width: 350px;
-      max-width: 350px;
-      text-align: right;
-      color: $lightShapeColor;
-   }
+  h3,em {
+    font-size: 18px;
+    padding: 0 15px;
+    min-width: 350px;
+    max-width: 350px;
+    text-align: right;
+    color: $lightShapeColor;
+  }
 }
 
 .skillIcons {
-   display: flex;
-   flex-wrap: wrap;
-   // justify-content: flex-end;
-   padding: 0 20px;
-   color: $iconColor;
-   // height: 60px;
-   line-height: 0;
-   font-size: 75px;
-   margin: 5px 10px;
-   border-right: $accentColor 2px solid;
-   border-left: $accentColor 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: flex-end;
+  padding: 0 20px;
+  color: $iconColor;
+  // height: 60px;
+  line-height: 0;
+  font-size: 75px;
+  margin: 5px 10px;
+  border-right: $accentColor 2px solid;
+  border-left: $accentColor 2px solid;
 
-   p {
-      font-size: 15px;
-      text-align: center;
-      padding: 5px 0;
-   }
-   i, img {
-      padding: 0 10px;
-   }
-   div {
-      margin: 15px 5px;
-      display: flex;
-      flex-direction: column;
-   }
+  p {
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 0;
+  }
+  i, img {
+    padding: 0 10px;
+  }
+  div {
+    margin: 15px 5px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .currentSkills__icons {
-   img {
-      height: 75px;
-   }
+  img {
+    height: 75px;
+  }
 }
 
 .otherSkills__icons {
-   height: 144px;
-   img {
-      height: 95px;
-   }
+  height: 144px;
+  img {
+    height: 95px;
+  }
 
-   p {
-      position: relative;
-      top: -15px;
-   }
+  p {
+    position: relative;
+    top: -15px;
+  }
 }
 
 .dungeonWrapper {
-   p {
-      position: relative;
-      top: 5px;
-   }
+  p {
+    position: relative;
+    top: 5px;
+  }
 }
 
 .dungeonIcon {
-   position: relative;
+  position: relative;
 }
 
