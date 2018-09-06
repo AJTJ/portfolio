@@ -15,9 +15,12 @@
 }
 
 .projectBackground__left {
-  background: linear-gradient(to right, $lightShapeColor__background1, $lightShapeColor__background2) ;
+  background: linear-gradient(
+    to right,
+    $lightShapeColor__background1,
+    $lightShapeColor__background2
+  );
 }
-
 
 .projectFigure {
   display: flex;
@@ -36,7 +39,7 @@
   display: flex;
   // align-items: center;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
   p {
     padding: 10px 0;
   }
@@ -45,6 +48,14 @@
 .projectLink__wrapper {
   // text-align: center;
   margin: 10px 0;
+}
+
+.projectTextLink {
+  color: $lightShapeColor;
+  font-weight: 600;
+  &:hover {
+    color: black;
+  }
 }
 
 .projectLink {
@@ -60,7 +71,8 @@
   height: 50px;
   padding: 10px;
 
-  &:hover, &:active {
+  &:hover,
+  &:active {
     color: black;
   }
 }

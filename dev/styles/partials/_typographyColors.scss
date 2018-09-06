@@ -1,5 +1,5 @@
-$mainFont: 'Karla', sans-serif;
-$titleFont: 'Ruthie', cursive;
+$mainFont: "Karla", sans-serif;
+$titleFont: "Ruthie", cursive;
 
 //Colors
 
@@ -10,7 +10,7 @@ $iconColor: rgb(90, 90, 93);
 $accentColor: rgb(204, 204, 204);
 $lightAccentColor: rgba(204, 204, 204, 0.267);
 $softFontColor: rgb(153, 153, 153);
-$lightShapeColor: rgb(165, 116,5);
+$lightShapeColor: rgb(165, 116, 5);
 $lightShapeColor__background1: rgba(165, 117, 5, 0.041);
 $lightShapeColor__background2: rgba(165, 117, 5, 0.021);
 body {
@@ -24,11 +24,17 @@ li {
 
 a {
   text-decoration: none;
+  font-weight: 600;
   transition: all 0.2s;
   color: $linkColor;
 }
 
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   margin: 0;
   color: $darkHeaderColor;
 }
@@ -47,15 +53,19 @@ p {
   color: $mainTextColor;
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
   color: $softFontColor;
 }
-::-moz-placeholder { /* Firefox 19+ */
+::-moz-placeholder {
+  /* Firefox 19+ */
   color: $softFontColor;
 }
-:-ms-input-placeholder { /* IE 10+ */
+:-ms-input-placeholder {
+  /* IE 10+ */
   color: $softFontColor;
 }
-:-moz-placeholder { /* Firefox 18- */
+:-moz-placeholder {
+  /* Firefox 18- */
   color: $softFontColor;
 }
