@@ -27,8 +27,6 @@
   }
 }
 
-
-
 .topNav__wrapper {
   display: flex;
   color: white;
@@ -105,8 +103,9 @@
   color: $accentColor;
   width: 100%;
   // padding: 30px;
-  &:hover, &:active {
-      color: $lightShapeColor;
+  &:hover,
+  &:active {
+    color: $lightShapeColor;
   }
 }
 
@@ -120,7 +119,8 @@
   display: none;
   transition: all 0.2s;
   padding: 0 20px;
-  &:hover, &:active {
+  &:hover,
+  &:active {
     color: $lightShapeColor;
   }
 }
@@ -131,20 +131,27 @@
   max-height: 100vh;
   min-height: 750px;
   // min-width: 100%;
-  background: linear-gradient(to right, black, black 70%, transparent 70%, transparent), url("/assets/triangleBG.jpg");  
+  background: linear-gradient(
+      to right,
+      black,
+      black 70%,
+      transparent 70%,
+      transparent
+    ),
+    url("/assets/triangleBG.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 
 .hero__flex {
-
   height: 100vh;
 }
 
 .numberedText__hero {
   padding-top: 20%;
   max-width: 70%;
-  h1, h2 {
+  h1,
+  h2 {
     color: $accentColor;
     font-size: 40px;
   }
