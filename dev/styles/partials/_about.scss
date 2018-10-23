@@ -1,3 +1,4 @@
+//HEADSHOT + ABOUT
 .aboutSection {
   padding-top: 150px;
   position: relative;
@@ -7,9 +8,6 @@
   background: url("/assets/headshotOptim.jpg");
   background-size: cover;
   height: 400px;
-  // max-width: 100%;
-  // box-shadow: 10px 10px 10px $accentColor;
-  // margin-left: 400px;
 }
 
 .headshotFigure {
@@ -22,21 +20,35 @@
   }
 }
 
+//ABOUT
+
+.aboutBackground {
+  // background: rgba(0, 0, 0, 0.959);
+  // margin-top: 20px;
+  padding: 10px 0;
+}
+
 .aboutText {
   width: 50%;
   margin-left: 35%;
-  // background: lightgray;
 }
 
 .numberedText__about {
   position: relative;
   top: -55px;
   padding: 25px 0 0 0;
-  // right: -40%;
+  h1,
+  h2 {
+    color: $lightShapeColor;
+  }
 }
 
 .aboutText__paragraph {
   p {
     padding-top: 20px;
   }
+  // p,
+  // h4 {
+  //   color: white;
+  // }
 }
